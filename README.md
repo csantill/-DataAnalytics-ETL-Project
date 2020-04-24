@@ -16,11 +16,11 @@ https://data.austintexas.gov/browse?q=APD%20Traffic%20fatality&sortBy=relevance
 all data is provided in .csv format.
 
 
-We've decided to use SQLite.
+Import the US accident data, the 4 years of APD Traffic Fatality data into Jupiter Notebook.
 
-We'll load the US accident data, the 4 years of APD Traffic Fatality data into Python to transform and clean the data.
+Use Python and Pandas to transform and clean the data.
 
-We'll load the data into a SQLite database.
+Load the transformed data into a SQLite database.
 
 
 ** Description This is a countrywide car accident dataset, which covers 49 states of the United States. The data is collected from February 2016 to December 2019, using several data providers, including two APIs that provide streaming traffic incident data. These APIs broadcast traffic data captured by a variety of entities, such as the US and state departments of transportation, law enforcement agencies, traffic cameras, and traffic sensors within the road-networks. Currently, there are about 3.0 million accident records in this dataset. Check here to learn more about this dataset.
