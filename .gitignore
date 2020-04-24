@@ -8,6 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+US_Accidents_Dec19.csv
 build/
 develop-eggs/
 dist/
