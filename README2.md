@@ -11,7 +11,7 @@ link: https://www.kaggle.com/sobhanmoosavi/us-accidents
 
 APD Traffic Fatality Data for 2015 to 2018 from austintexas.gov
 
-link: https://data.austintexas.gov/browse?q=APD%20Traffic%20fatality&sortBy=relevance
+https://data.austintexas.gov/browse?q=APD%20Traffic%20fatality&sortBy=relevance
 
 all data is provided in .csv format.
 
