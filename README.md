@@ -9,11 +9,13 @@ US Accidents data from Kaggle.com **
 
 link: https://www.kaggle.com/sobhanmoosavi/us-accidents
 
+This US Accidents data is from an API
+
 APD Traffic Fatality Data for 2015 to 2018 from austintexas.gov
 
 https://data.austintexas.gov/browse?q=APD%20Traffic%20fatality&sortBy=relevance
 
-all data is provided in .csv format.
+This APD Traffic Fatality Data is in .csv format.
 
 
 Import the US accident data, the 4 years of APD Traffic Fatality data into Jupiter Notebook.
