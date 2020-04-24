@@ -1,27 +1,24 @@
 # DataAnalytics-ETL-Project
 
 
+Team Members
+
+Bianca Hernandez | Neil Hsu | Ningning Mussomeli | Carlos Santillan
+
 US Accidents data from Kaggle.com **
 
 link: https://www.kaggle.com/sobhanmoosavi/us-accidents
 
-APD Traffic Fatality Data for 2012 to 2018 from austintexas.gov
+APD Traffic Fatality Data for 2015 to 2018 from austintexas.gov
 
 https://data.austintexas.gov/browse?q=APD%20Traffic%20fatality&sortBy=relevance
 
 all data is provided in .csv format.
 
-Team Members
-
-Bianca Hernandez | Neil Hsu | Ningning Mussomeli | Carlos Santillan
-
 
 We've decided to use SQLite.
 
-
-What sort of transformations will you make of the data
-
-We'll load the US accident data, the 7 years of APD Traffic Fatality data into Python to transform and clean the data.
+We'll load the US accident data, the 4 years of APD Traffic Fatality data into Python to transform and clean the data.
 
 We'll load the data into a SQLite database.
 
