@@ -26,26 +26,47 @@ Load the transformed data into a SQLite database.
 
 
 Methods
+
 Extract data from multiple sources
+
 US Accidents data was acquired from Kaggle.com and traffic mortality data was collected through AustinTexas.gov. The US Accidents (3.0 million records) data is a countrywide accident dataset collected from Feb 2016 to Dec 2019 that uses several data providers (US and state departments of transportation, law enforcement agencies, traffic cameras and sensor within the road-networks) and APIs to stream traffic incident data (Moosavi, 2019). 
+
 The APD Traffic Fatalities data was extracted from APIs for the years of 2012-2018. This data consists of crashes that were investigated by APD and is continuously updated because of on-going investigations. 
+
 Transform data for query and analysis
+
 Both data sources had to be transformed into proper formats for query and analysis. The following steps were taken to transform the data:
+
 US Traffic Accident Data:
+
 Downloaded CSV data from Kaggle.com
+
 Pickled the data so that we could quickly load it into the notebook (Originally 1.2 GB).
+
 Filtered the data to the cities in the Austin Metro Area.
+
 Narrowed weather conditions from 65 to 6 categories..
+
 Separated date-stamp (MM/DD/YY) to individual columns
+
 Filtered only the years of interest 2017-2019
+
 APD 2012 - 2018 Traffic Fatality Data from AustinTexas.gov
+
 Downloaded 2012-2018 traffic fatality data via APIs from ‘data.austintexas.gov’.
+
 Renamed columns so that similar data across years had matching column names. 
+
 Concatenated yearly data frames into a single data frame (2017-2018).
+
 Set the data types for columns.
+
 Extracted year column from date stamp.
+
 Load data into database system
+
 Created SQLite Database.
+
 Exported the Pandas Dataframe to SQLite Database.
 
 
